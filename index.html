@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="message" id="clickMessage">Click!</div>
+
+    <!-- مربع الاسم ورابط الديسكورد -->
+    <div class="info-box hidden">
+        <h1>khaled alotaibi</h1>
+        <h2>Fivem programmer and also Discord programmer</h2>
+      
+    </div>
+    <div id="viewer-count" class="viewer-count"> : 0</div>
+
+    <!-- زر التحكم بالصوت -->
+    <button id="mute-button" class="mute-button hidden">🔊</button>
+
+    <!-- عنصر الصوت -->
+    <audio id="audio-player" src="/Desktop 2024.10.14 - 03.44.08.03.mp3" preload="auto"></audio>
+
+    <div class="effect-container hidden"></div>
+    
+    <!-- حاوية الكلمات -->
+    <div class="lyrics-container hidden"></div>
+
+    <!-- عنصر الشاشة السوداء -->
+    <div class="overlay hidden" id="overlay">Click !</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
